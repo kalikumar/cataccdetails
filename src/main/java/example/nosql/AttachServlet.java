@@ -17,6 +17,7 @@ import org.apache.commons.codec.binary.Base64;
 import com.cloudant.client.api.Database;
 import com.cloudant.client.api.model.Document;
 import com.cloudant.client.api.model.Params;
+
 import com.cloudant.client.org.lightcouch.Attachment;
 import com.google.gson.JsonObject;
 
