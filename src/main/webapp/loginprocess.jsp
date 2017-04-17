@@ -1,9 +1,9 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head><title>Login page</title></head>
 <body>  
     
-    <%@page import="example.utility.Login"%>  
+    <%@ page import="example.utility.Login"%>  
     <jsp:useBean id="obj" class="example.utility.LoginProcess"/>  
       
     <jsp:setProperty property="*" name="obj"/>  
