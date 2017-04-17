@@ -3,8 +3,8 @@
 <head><title>Login page</title></head>
 <body>  
     
-    <%@page import="bean.Login"%>  
-    <jsp:useBean id="obj" class="bean.LoginProcess"/>  
+    <%@page import="example.utility.Login"%>  
+    <jsp:useBean id="obj" class="example.utility.LoginProcess"/>  
       
     <jsp:setProperty property="*" name="obj"/>  
       
